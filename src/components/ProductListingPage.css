@@ -1,0 +1,39 @@
+.product-listing-page {
+    padding: 20px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.add-to-cart-button {
+    background-color: #28a745;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the continue shopping button */
+.continue-shopping-button {
+    margin-top: 20px;
+    background-color: #007bff; /* Blue color */
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

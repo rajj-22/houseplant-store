@@ -1,0 +1,51 @@
+.shopping-cart {
+    padding: 20px;
+  }
+  
+  .cart-items {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    gap: 20px; /* Space between items */
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between image and details */
+    border: 1px solid #ddd; /* Optional: Add border around each item */
+    padding: 10px; /* Padding for each item */
+    width: 200px; /* Set a fixed width for each item */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visual */
+  }
+  
+  .cart-item img {
+    width: 100px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 20px; /* Add space between image and text */
+  }
+  
+  .item-details {
+    flex-grow: 1; /* Allows this section to take up remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out the name, price, and quantity */
+  }
+  
+  .quantity-controls {
+    margin-top: 10px; /* Add margin for better spacing */
+  }
+  
+  .quantity-controls button {
+    margin: 5px; /* Space between buttons */
+    padding: 5px 10px;
+    background-color: #28a745; /* Green background for buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .total-price {
+    margin-top: 20px;
+    font-size: 1.5rem;
+  }
+  
